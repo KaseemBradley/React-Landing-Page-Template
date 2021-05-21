@@ -143,6 +143,19 @@ export const Contact = (props) => {
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
+                  <li>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href={
+                        props.data
+                          ? props.data.github
+                          : "https://github.com/KaseemBradley"
+                      }
+                    >
+                      <i className="fa fa-github"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
