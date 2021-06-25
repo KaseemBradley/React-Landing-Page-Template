@@ -6,7 +6,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             <img
-              src="img/kaseem.jpg"
+              src={require("../imgs/kaseem.jpg")}
               className="img-responsive"
               alt="Kaseem"
             />{" "}
