@@ -1,3 +1,5 @@
+import Image from "../imgs/kaseem.jpg";
+
 export const About = (props) => {
   return (
     <div id="about">
@@ -5,11 +7,7 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img
-              src={require("../imgs/kaseem.jpg")}
-              className="img-responsive"
-              alt="Kaseem"
-            />{" "}
+            <img src={Image} className="img-responsive" alt="Kaseem" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
