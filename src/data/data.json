@@ -6,18 +6,18 @@
 
     },
     "About": {
-        "paragraph": "As a software engineer, my goal is to write clean programs that are easy to maintain. I enjoy the creative and critical thinking that it takes to design efficient software, and I use my downtime to sharpen my skills and master new technologies. My best work happens in a collaborative environment where a growth-mindset is at the center of every project.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Why": [
-            "JavaScript",
-            "React.js",
-            "Node.js",
-            "Redux"
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
         ],
         "Why2": [
-            "Git",
-            "Express.js",
-            "HTML",
-            "CSS"
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
         ]
     },
     "Services": [{
