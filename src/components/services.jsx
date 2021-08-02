@@ -4,9 +4,6 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Projects</h2>
-          <p>
-           
-          </p>
         </div>
         <div className="row">
           {props.data
