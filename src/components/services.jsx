@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export const Services = (props) => {
   return (
     <div id="projects" className="text-center">
@@ -5,7 +7,12 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Projects</h2>
         </div>
-        <div className="row">
+        <Card
+          title="Card Title"
+          imageUrl="https://unsplash.com/photos/H4Xlh-B_7Rg"
+          body="lorem ipsum"
+        />
+        {/* <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
@@ -18,7 +25,7 @@ export const Services = (props) => {
                 </div>
               ))
             : "loading"}
-        </div>
+        </div> */}
       </div>
     </div>
   );
