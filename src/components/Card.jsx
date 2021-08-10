@@ -1,4 +1,4 @@
-import Image from "../imgs/kaseem.jpg";
+import Image from "../imgs/human-rights.jpeg";
 const Card = (title, imageUrl, body) => {
   return (
     <div className="card-container">
