@@ -1,5 +1,4 @@
 import Card from "./Card";
-
 export const Services = (props) => {
   return (
     <div id="projects" className="text-center">
@@ -9,8 +8,8 @@ export const Services = (props) => {
         </div>
         <Card
           title="Card Title"
-          imageUrl="https://unsplash.com/photos/H4Xlh-B_7Rg"
-          body="lorem ipsum"
+          imageName={"human-rights2"}
+          body="bunch of random shit to put here about shit"
         />
         {/* <div className="row">
           {props.data
