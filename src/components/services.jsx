@@ -7,9 +7,9 @@ export const Services = (props) => {
           <h2>Projects</h2>
         </div>
         <Card
-          title="Card Title"
+          title="Human Rights First"
           imageName={"human-rights2"}
-          body="bunch of random shit to put here about shit"
+          body="Non profit for refugees seeking U.S asylum"
         />
         {/* <div className="row">
           {props.data
