@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import swal from "sweetalert";
 
 const initialState = {
   name: "",
@@ -26,6 +27,7 @@ export const Contact = (props) => {
         "user_gzD8Gah0v8Fl7b0AkZOiE"
       )
       .then(
+        swal("Thank You!", "your email has been sent.", "success"),
         (result) => {
           console.log(result.text);
           clearState();
