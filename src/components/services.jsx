@@ -9,7 +9,7 @@ export const Services = (props) => {
         <Card
           title="Human Rights First"
           imageName={"human-rights2"}
-          body="Non profit for refugees seeking U.S asylum"
+          body="Iterated over front facing features of user dashboard and implemented Plotly to display data visualizations based on search results"
         />
         {/* <div className="row">
           {props.data
